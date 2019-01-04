@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546609936334.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "569406951",
+    "id" : "97157ABB",
+    "lastKnownWriteTime" : 1546609968,
+    "last_content_update" : 1546609968155,
+    "path" : "U:/R/project_euler/solutions/1_euler_solution.R",
+    "project_path" : "solutions/1_euler_solution.R",
+    "properties" : {
+        "cursorPosition" : "6,11",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
