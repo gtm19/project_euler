@@ -1,5 +1,11 @@
+# PROJECT EULER EXERCISE 3:
+#
+# The prime factors of 13195 are 5, 7, 13 and 29.
+# 
+# What is the largest prime factor of the number 600851475143?
+
 primes <- function(n) {
-  
+
   n <- floor(n)
   
   primes <- c(FALSE, rep(TRUE, n-1))
@@ -33,7 +39,11 @@ euler_three <- function(n = 600851475143) {
     } else factors <- c(factors, newfactors)
   }
   
-  max(factors)
+  message("The unique prime factorisation of")
+  message(paste0(format(n, big.mark = ","), " is:"))
+  message(paste(sort(factors), collapse = " x "))
+  message("So the biggest prime factor is:")
+  print(max(factors))
 }
 
 euler_three()
